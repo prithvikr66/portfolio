@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Main = () => {
   return (
@@ -16,9 +17,16 @@ const Main = () => {
             I am a Novice web developer proficient in MERN stack technology also learning Typescript and Next-js.
             I also do poster designing and UI UX sometimes using Figma.
             I wish to explore Solidity and Tensorflow aswell.{""}
-            <a href='' target='_blank'><span
-            className='text-textBlue inline-flex relative cursor-pointer h-7'>Learn more.</span></a>
+            
         </p>
+        <a href='' target='_blank'><span
+            className='text-textBlue inline-flex relative cursor-pointer group font-bold'>Learn more.
+            </span>
+            {/* /* <span className='asbolute w-full h-[1px] bg-textBlue left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500' ></span> */}
+            </a> 
+
+            <Button text='Check out my Projects' url="#"/>
+           
 
 
 
